@@ -1,0 +1,153 @@
+
+
+*{
+    margin:0;
+    padding:0;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+fieldset,img {
+    border:0;
+}
+
+address,caption,cite,code,dfn,em,strong,th,var {
+    font-style:normal;
+    font-weight:normal;
+}
+
+ol,ul {
+    list-style:none;
+}
+
+caption,th {
+    text-align:left;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-size:100%;
+    font-weight:normal;
+}
+
+q:before,q:after {
+    content:’;
+}
+
+abbr,acronym {
+    border:0;
+}
+body {
+    background-image: url('../image/hoi.png');
+    color:#555;
+    font-size:14px;
+}
+
+#site_header {
+    width:740px;
+    margin:0 auto;
+}
+
+#site_header h1 {
+    font-family: 'Mountains of Christmas', cursive;
+    font-size:42px;
+    letter-spacing:1px;
+    color:#fff;
+    position:relative;
+    top:60px;
+    font-weight:700;
+    text-shadow:-1px -1px 1px #3a5e40
+}
+
+#site_logo {
+    float:left;
+    position:relative;
+    top:36px;
+    left:-24px;
+}
+
+#site_container {
+    background:#fff;
+    width:700px;
+    padding:42px 20px;
+    margin:0 auto;
+    border:3px solid #7b9971;
+}
+.clear {
+    clear:both;
+}
+h1 {
+    font-family:georgia;
+    margin:0 0 12px 0;
+    font-size:32px;
+    color:#7b9971;
+}
+
+input, textarea {
+    border:1px solid #7b9971;
+    background:#e9fce3;
+    padding:5px;
+    font-size:16px;
+    width:300px;
+    margin:0 0 6px 0;
+    display:block;
+}
+textarea {
+    height:140px;
+}
+label {
+    font-size:13px;
+    margin:0 0 4px 0;
+}
+input.submit {
+    border:0px;
+    width:auto;
+    color:#fff;
+    background:#941f1f;
+    font-size:12px;
+    padding:5px 12px;
+    border:1px solid #7d1515;
+}
+border-bottom:1px solid #ccc;
+padding:12 px 0;
+}
+
+.item_image img {
+    margin:0 16px 0 0;
+}
+
+.item_price h3 {
+    margin:0px;
+}
+
+.item_price a {
+    font-weight:700;
+    font-family:Mountains of Christmas;
+    color:#941f1f;
+    text-decoration:none;
+}
+
+.item_price a:hover {
+    color:#941f1f;
+}
+
+.item_price .price {
+    font-size:52px;
+}
+
+.item_price .text {
+    position:relative;
+    top:-12px;
+}
+
+.item_content {
+    padding:0 42px 0 0;
+    width:340px;
+}
+
+.item_content h2 {
+    font-size:24px;
+    font-family:georgia;
+}
